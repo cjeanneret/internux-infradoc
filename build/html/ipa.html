@@ -40,7 +40,11 @@
   <ul>
 <li><a class="reference internal" href="#">Gestion des mots de passe</a><ul>
 <li><a class="reference internal" href="#changement-de-mot-de-passe">Changement de mot de passe</a></li>
-<li><a class="reference internal" href="#configuration-otp">Configuration OTP</a></li>
+<li><a class="reference internal" href="#configuration-otp">Configuration OTP</a><ul>
+<li><a class="reference internal" href="#differents-type-d-otp">Différents type d’OTP</a></li>
+<li><a class="reference internal" href="#generer-un-token">Générer un token</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -121,6 +125,32 @@ c’est le cas pour se connecter à l’e-banking.</p>
 <p>D’autres applications sont compatibles.</p>
 <p>Il est à noter que l’OTP n’est exploitable que pour l’interface <a class="reference external" href="https://auth.internux.ch/ipa/ui/">https://auth.internux.ch/ipa/ui/</a>,
 et pas pour la connexion au <a class="reference external" href="https://webmail.it-nux.ch/">Webmail</a> ou via votre client mail.</p>
+<div class="section" id="differents-type-d-otp">
+<h3>Différents type d’OTP<a class="headerlink" href="#differents-type-d-otp" title="Lien permanent vers ce titre">¶</a></h3>
+<p>La solution d’authentification supporte deux types d’OTP :</p>
+<blockquote>
+<div><ul class="simple">
+<li>génération basée sur le temps (TOTP)</li>
+<li>génération basée sur l’événement (HOTP)</li>
+</ul>
+</div></blockquote>
+<p>Dans le premier cas (TOTP), le token est généré en fonction du temps uniquement, et change toutes les 30 secondes.</p>
+<p>Dans le second cas (HTOP), chaque fois que vous cliquerez sur l’application, un token sera généré, avec une validité maximum
+de 30 secondes. Cette variante est plus sécurisée, parce qu’une fois le token employé, il n’est plus valide, même durant
+les 30 secondes de validité.</p>
+</div>
+<div class="section" id="generer-un-token">
+<h3>Générer un token<a class="headerlink" href="#generer-un-token" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Allez dans l’interface de gestion (<a class="reference external" href="https://auth.internux.ch/ipa/ui/#/e/otptoken/search">OTP Tokens</a>). Là vous pouvez soit supprimer un token existant (en cas de perte, ou de changement
+de smartphone par exemple), et générer différents tokens.</p>
+<img alt="_images/ipa-otp.jpg" src="_images/ipa-otp.jpg" />
+<p>Concernant la génération, vous avez juste à entrer une description, et choisir le type de génération.</p>
+<img alt="_images/ipa-otp-2.jpg" src="_images/ipa-otp-2.jpg" />
+<p>Une fois le token créé, il vous suffit de le synchroniser avec le système. Pour ce faire, il faut aller sur la <a class="reference external" href="https://auth.internux.ch/">page d’authentification</a> et
+cliquer sur le lien à côté du bouton «&nbsp;Log in&nbsp;» (Sync OTP Token).</p>
+<p>Une interface vous demandant votre nom d’utilisateur, votre mot de passe ainsi que deux token sera affichée.</p>
+<img alt="_images/ipa-sync-otp.jpg" src="_images/ipa-sync-otp.jpg" />
+</div>
 </div>
 </div>
 
