@@ -3,13 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Infrastructure Mail
-===================
+Documentation utilisateurs
+==========================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contenu:
 
    infra-mail
    ipa
    garantie
+
+Cette documentation est libre d'accès, et est gérée via un dépôt Git.
+`Accéder à la source`_
+
+.. _`Accéder à la source`: https://github.com/cjeanneret/internux-infradoc
