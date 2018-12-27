@@ -79,9 +79,10 @@ Nous continuons de passer les mails à travers Spamassassin_, un logiciel résid
 sur nos serveurs directement.
 
 Nous employons aussi le service de SpamHaus_, qui nous permet de bloquer une bonne
-partie des mails provenant de botnet connus.
+partie des mails provenant de botnet connus. Seuls les adresses IP et l'expéditeur
+sont transmis.
 
-À aucun moment les mails ne sont transmis à un service tiers pour le traitement du spam.
+À aucun moment le contenu des mails n'est transmis à un service tiers pour le traitement du spam.
 
 Antivirus
 ---------
