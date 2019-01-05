@@ -11,7 +11,9 @@ Documentation utilisateurs
 
    infra-mail
    ipa
+   status
    garantie
+
 
 Cette documentation est libre d'accès, et est gérée via un dépôt Git.
 `Accéder à la source`_
