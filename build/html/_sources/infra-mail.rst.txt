@@ -58,6 +58,27 @@ ____
    * Port: 465
    * TLS: oui
 
+Thunderbird
+-----------
+
+.. image:: imgs/thunderbird-001.jpg
+
+Sélectionnez le compte dans l'interface, et allez dans les paramètres
+
+.. image:: imgs/thunderbird-002.jpg
+
+Allez sur les "Paramètres Serveur", et mettez à jour le serveur de réception
+(soit imap.internux.ch soit pop3.internux.ch)
+
+.. image:: imgs/thunderbird-004.jpg
+
+Allez ensuite dans les paramètres "Serveur sortant", sélectionnez le serveur d'Internux
+
+.. image:: imgs/thunderbird-005.jpg
+
+Mettez à jour les paramètres.
+
+
 Certificats SSL
 ---------------
 Les certificats sont signés par Let's Encrypt ::
