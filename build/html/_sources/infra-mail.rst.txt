@@ -47,7 +47,7 @@ ____
 POP3
 ____
 
-   * Hôte: pop.internux.ch
+   * Hôte: pop3.internux.ch
    * Port: 995
    * TLS: oui
 
