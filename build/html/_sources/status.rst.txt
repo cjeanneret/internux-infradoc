@@ -47,7 +47,7 @@ Domaines:
       - mail: :green:`OK`
       - sites:
          - podomètres: :green:`Deleted`
-         - imco-lausanne: :green`Deleted`
+         - imco-lausanne: :green:`Deleted`
    - j-internux.ch
       - mail: :green:`OK`
    - motorratel.ch
