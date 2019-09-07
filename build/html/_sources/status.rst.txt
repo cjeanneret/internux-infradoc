@@ -21,7 +21,7 @@ Domaines:
    - cedricjeanneret.ch
       - mail: :green:`OK`
    - ethack.org
-      - mail: :red:`NOK`
+      - mail: :green:`OK`
       - site: :green:`OK`
    - fogmail.ch
       - mail: :green:`OK`
@@ -39,15 +39,15 @@ Domaines:
       - mail: :green:`OK`
       - site: :green:`OK`
    - internux.ch
-      - mail: :red:`NOK`
-      - site: :red:`NOK`
+      - mail: :green:`OK`
+      - site: :green:`OK`
    - it-nux.ch
       - mail: :green:`OK`
    - itnux.ch
-      - mail: :red:`NOK`
+      - mail: :green:`OK`
       - sites:
-         - podomètres: :red:`NOK`
-         - imco-lausanne: :red:`NOK`
+         - podomètres: :green:`Deleted`
+         - imco-lausanne: :green`Deleted`
    - j-internux.ch
       - mail: :green:`OK`
    - motorratel.ch
@@ -60,11 +60,11 @@ Domaines:
       - mail: :green:`OK`
       - site: :green:`OK`
    - phoenix818.ch
-      - mail: :red:`NOK`
+      - mail: :green:`OK`
    - ratel.ch
       - mail: :green:`OK`
    - ssl.exposed
       - mail: :green:`OK`
    - swisstengu.ch
-      - mail: :red:`NOK`
+      - mail: :green:`OK`
       - site: :green:`OK`
