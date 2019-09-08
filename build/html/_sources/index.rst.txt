@@ -13,6 +13,7 @@ Documentation utilisateurs
    ipa
    status
    garantie
+   domains
 
 
 Cette documentation est libre d'accès, et est gérée via un dépôt Git.
