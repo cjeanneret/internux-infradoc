@@ -15,16 +15,6 @@ ___________________
   - DMARC:  p=reject;
   - SPF: v=spf1 +a +mx -all
 
-fogmail.ch.
-___________
-  - DMARC:  p=reject;
-  - SPF: v=spf1 +a +mx -all
-
-fogstorage.ch.
-______________
-  - DMARC:  p=reject;
-  - SPF: v=spf1 +a +mx -all
-
 fogstore.ch.
 ____________
   - DMARC:  p=reject;
@@ -52,11 +42,6 @@ ______________
 
 motorratel.ch.
 ______________
-  - DMARC:  p=reject;
-  - SPF: v=spf1 +a +mx -all
-
-orbitter.ch.
-____________
   - DMARC:  p=reject;
   - SPF: v=spf1 +a +mx -all
 
@@ -95,18 +80,8 @@ ____________
   - DMARC:  p=reject;
   - SPF: v=spf1 +a +mx -all
 
-fogstore.org.
-_____________
-  - DMARC:  p=reject;
-  - SPF: v=spf1 +a +mx -all
-
 orwall.org.
 ___________
-  - DMARC:  p=reject;
-  - SPF: v=spf1 +a +mx -all
-
-orbitter.pro.
-_____________
   - DMARC:  p=reject;
   - SPF: v=spf1 +a +mx -all
 

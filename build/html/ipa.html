@@ -1,11 +1,9 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <title>Gestion des mots de passe &#8212; Documentation Internux </title>
     <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -37,7 +35,7 @@
     </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table of Contents</a></h3>
+  <h3><a href="index.html">Table des matières</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Gestion des mots de passe</a><ul>
 <li><a class="reference internal" href="#changement-de-mot-de-passe">Changement de mot de passe</a></li>
@@ -64,13 +62,11 @@
     </ul>
    </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Recherche rapide</h3>
+  <h3 id="searchlabel">Recherche rapide</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
@@ -91,18 +87,18 @@
 <h2>Changement de mot de passe<a class="headerlink" href="#changement-de-mot-de-passe" title="Lien permanent vers ce titre">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li>Connectez-vous sur <a class="reference external" href="https://auth.internux.ch/ipa/ui/">https://auth.internux.ch/ipa/ui/</a></li>
-<li>Cliquez sur le bouton «&nbsp;Actions&nbsp;»</li>
-<li>Sélectionnez «&nbsp;Reset Password&nbsp;»</li>
+<li><p>Connectez-vous sur <a class="reference external" href="https://auth.internux.ch/ipa/ui/">https://auth.internux.ch/ipa/ui/</a></p></li>
+<li><p>Cliquez sur le bouton « Actions »</p></li>
+<li><p>Sélectionnez « Reset Password »</p></li>
 </ul>
 </div></blockquote>
 <img alt="_images/ipa-password.jpg" src="_images/ipa-password.jpg" />
 <p>Une fois l’invite de changement de mot de passe affichée:</p>
 <blockquote>
 <div><ul class="simple">
-<li>Renseignez le mot de passe actuel</li>
-<li>Entrez au besoin l’OTP (voir plus bas)</li>
-<li>Renseignez et confirmez le nouveau mot de passe</li>
+<li><p>Renseignez le mot de passe actuel</p></li>
+<li><p>Entrez au besoin l’OTP (voir plus bas)</p></li>
+<li><p>Renseignez et confirmez le nouveau mot de passe</p></li>
 </ul>
 </div></blockquote>
 <img alt="_images/ipa-password-2.jpg" src="_images/ipa-password-2.jpg" />
@@ -114,9 +110,9 @@ authentification. En activant cette fonctionnalité, vous aurez une
 authentification à trois clefs, au lieu de deux:</p>
 <blockquote>
 <div><ul class="simple">
-<li>Nom d’utilisateur</li>
-<li>Mot de passe</li>
-<li>Token temporaire</li>
+<li><p>Nom d’utilisateur</p></li>
+<li><p>Mot de passe</p></li>
+<li><p>Token temporaire</p></li>
 </ul>
 </div></blockquote>
 <p>Le Token temporaire (OTP) est généré par une application tierce, comme
@@ -131,8 +127,8 @@ et pas pour la connexion au <a class="reference external" href="https://webmail.
 <p>La solution d’authentification supporte deux types d’OTP :</p>
 <blockquote>
 <div><ul class="simple">
-<li>génération basée sur le temps (TOTP)</li>
-<li>génération basée sur l’événement (HOTP)</li>
+<li><p>génération basée sur le temps (TOTP)</p></li>
+<li><p>génération basée sur l’événement (HOTP)</p></li>
 </ul>
 </div></blockquote>
 <p>Dans le premier cas (TOTP), le token est généré en fonction du temps uniquement, et change toutes les 30 secondes.</p>
@@ -148,7 +144,7 @@ de smartphone par exemple), et générer différents tokens.</p>
 <p>Concernant la génération, vous avez juste à entrer une description, et choisir le type de génération.</p>
 <img alt="_images/ipa-otp-2.jpg" src="_images/ipa-otp-2.jpg" />
 <p>Une fois le token créé, il vous suffit de le synchroniser avec le système. Pour ce faire, il faut aller sur la <a class="reference external" href="https://auth.internux.ch/">page d’authentification</a> et
-cliquer sur le lien à côté du bouton «&nbsp;Log in&nbsp;» (Sync OTP Token).</p>
+cliquer sur le lien à côté du bouton « Log in » (Sync OTP Token).</p>
 <p>Une interface vous demandant votre nom d’utilisateur, votre mot de passe ainsi que deux token sera affichée.</p>
 <img alt="_images/ipa-sync-otp.jpg" src="_images/ipa-sync-otp.jpg" />
 </div>
@@ -178,7 +174,7 @@ cliquer sur le lien à côté du bouton «&nbsp;Log in&nbsp;» (Sync OTP Token).
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 2018, Cédric Jeanneret.
-      Créé avec <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.4.
+      Créé avec <a href="http://sphinx-doc.org/">Sphinx</a> 2.1.2.
     </div>
   </body>
 </html>
